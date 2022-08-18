@@ -64,4 +64,11 @@ public class CalcTest {
         result = calc.multiply(val1,val2);
         assertEquals(15,result);
     }
+    @Test
+    public void test2multiply(){
+        val1 = 5;
+        val2 = 10;
+        result = calc.multiply(val1,val2);
+        assertTrue(result == 50);
+    }
 }
