@@ -73,4 +73,11 @@ public class CalcTest {
         result = calc.multiply(val1,val2);
         assertEquals(50, result);
     }
+    @Test
+    public  void testdivide(){
+        float num1 = 5;
+        float num2 = 2;
+        float num3 = calc.divide(num1,num2);
+        assertEquals(2.5,num3);
+    }
 }
