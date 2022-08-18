@@ -57,4 +57,11 @@ public class CalcTest {
         result = calc.substract(val1,val2);
         assertTrue(result==3);
     }
+    @Test
+    public void testmultiply(){
+        val1 = 3;
+        val2 = 5;
+        result = calc.multiply(val1,val2);
+        assertEquals(15,result);
+    }
 }
