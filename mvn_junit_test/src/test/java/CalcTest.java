@@ -25,37 +25,37 @@ public class CalcTest {
     @Test
     public void testadd1(){
         val1 =5;
-        val2 =2;
-        result = calc.add(5,2);
-        assertTrue(result==7);
+        val2 =8;
+        result = calc.add(val1,val2);
+        assertEquals(13, result);
     }
     @Test
     public void testadd2(){
         val1 = 8;
         val2 = 3;
         result = calc.add(val1,val2);
-        assertTrue(result==11);
+        assertEquals(result, 11);
     }
     @Test
     public void testsubstract1(){
         val1 = 10;
         val2 = 6;
         result =calc.substract(val1,val2);
-        assertTrue(result==4);
+        assertEquals(4, result);
     }
     @Test
     public void testsubstract2(){
         val1 = 8;
         val2 = 9;
         result =calc.substract(val1,val2);
-        assertTrue(result==-1);
+        assertEquals(-1, result);
     }
     @Test
     public void testsubstract3(){
         val1 = 6;
         val2 = 3;
         result = calc.substract(val1,val2);
-        assertTrue(result==3);
+        assertEquals(3, result);
     }
     @Test
     public void testmultiply(){
@@ -69,6 +69,6 @@ public class CalcTest {
         val1 = 5;
         val2 = 10;
         result = calc.multiply(val1,val2);
-        assertTrue(result == 50);
+        assertEquals(50, result);
     }
 }
