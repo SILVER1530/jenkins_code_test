@@ -15,12 +15,12 @@ public class CalcTest {
 
     @Before
     public void setup(){
-        System.out.println("Before test");
+        System.out.println("Before single test");
     }
 
     @After
     public void teardown(){
-        System.out.println("After test");
+        System.out.println("After single test");
     }
 
     @Test
